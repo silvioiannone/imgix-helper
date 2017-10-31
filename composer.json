@@ -1,0 +1,18 @@
+{
+    "name": "silvioiannone/imgix-helper",
+    "description": "Imgix helper utility",
+    "authors": [
+        {
+            "name": "Silvio Iannone"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SI\\Providers\\Imgix": "src//"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "imgix/imgix-php": "dev-master"
+    }
+}
