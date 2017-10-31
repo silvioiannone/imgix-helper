@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "SI\\Providers\\Imgix": "src//"
+            "SI\\Providers\\Imgix\\": "src//"
         }
     },
     "minimum-stability": "dev",
