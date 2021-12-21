@@ -106,6 +106,32 @@ class Image
         return $this->builder->createURL($this->filename, $this->parameters);
     }
 
+
+    /**
+     * Flip the image.
+     *
+     * @return Image
+     */
+    public function flip(string $flip): self
+    {
+        $this->parameters['flip'] = $flip;
+
+        return $this;
+    }
+
+
+    /**
+     * Orient the image.
+     *
+     * @return Image
+     */
+    public function orient(string $orient): self
+    {
+        $this->parameters['orient'] = $orient;
+
+        return $this;
+    }
+
     /**
      * Blur the image.
      *
